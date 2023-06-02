@@ -11,9 +11,9 @@ void main() {
 // task7();
 // task9();
 // task10(4);
-// print(task11(20));
+// print(task11(60));
 // print(task12("123420"));
-task13b();
+// task13b();
 }
 
 task1() {
@@ -139,13 +139,13 @@ task10(int n) {
 task11(int age) {
   if(age > 0 && age < 7) {
     return "You have to go to kindergarten";
-  } else if(age > 7 && age < 18) {
+  } else if(age >= 7 && age < 18) {
     return "You have to go to school";
-  } else if(age > 18 && age < 23) {
+  } else if(age >= 18 && age < 23) {
     return "You have to go to university";
-  } else if(age > 23 && age < 60) {
+  } else if(age >= 23 && age < 60) {
     return "You have to go to work";
-  } else if(age > 60 && age < 100) {
+  } else if(age >= 60 && age < 100) {
     return "You have to retire";
   } else {
     return "Wrong age";
