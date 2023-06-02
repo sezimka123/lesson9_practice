@@ -13,7 +13,7 @@ void main() {
 // task10(4);
 // print(task11(60));
 // print(task12("123420"));
-// task13b();
+task13b();
 }
 
 task1() {
